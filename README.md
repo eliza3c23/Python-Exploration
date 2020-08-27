@@ -7,10 +7,12 @@ Your script must satisfy the following requirements:
 - When executed, create 3 files in the same directory as your script, each named differently (the name of the files is up to you), which remain there after your script finishes executing. Each of these 3 files must contain exactly 10 random characters from the lowercase alphabet, with no spaces ("hoehdgwkdq", for example). 
 
 - The final (eleventh) character of each file MUST be a newline character. Thus, running wc (wordcount) against your files in the following manner must return 11:
-  ```$ cat myfile
+  ```
+  $ cat myfile
   gkwjhcfikf
   $ wc -c myfile
-  11 myfile```
+  11 myfile
+  ```
   
 - When executed, output sent to stdout should first print out the contents of the 3 files it is creating in exactly the format given below.
 
